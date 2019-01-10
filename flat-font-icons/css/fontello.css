@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontelloeeb8.eot?67486647');
+  src: url('../font/fontelloeeb8.eot?67486647#iefix') format('embedded-opentype'),
+       url('../font/fontelloeeb8.html?67486647') format('woff2'),
+       url('../font/fontelloeeb8.woff?67486647') format('woff'),
+       url('../font/fontelloeeb8.ttf?67486647') format('truetype'),
+       url('../font/fontelloeeb8.svg?67486647#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?67486647#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+ 
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-001-credit-card-1:before { content: '\e800'; } /* '' */
+.icon-002-labyrinth:before { content: '\e801'; } /* '' */
+.icon-003-id-card:before { content: '\e802'; } /* '' */
+.icon-004-credit-card:before { content: '\e803'; } /* '' */
+.icon-005-plant:before { content: '\e804'; } /* '' */
+.icon-006-printer:before { content: '\e805'; } /* '' */
+.icon-007-contract:before { content: '\e806'; } /* '' */
+.icon-008-cashier:before { content: '\e807'; } /* '' */
+.icon-009-analytics:before { content: '\e808'; } /* '' */
+.icon-010-magnifying-glass:before { content: '\e809'; } /* '' */
+.icon-011-stopwatch:before { content: '\e80a'; } /* '' */
+.icon-012-browser:before { content: '\e80b'; } /* '' */
+.icon-013-budget:before { content: '\e80c'; } /* '' */
+.icon-014-smartphone:before { content: '\e80d'; } /* '' */
+.icon-015-bank-1:before { content: '\e80e'; } /* '' */
+.icon-016-presentation:before { content: '\e80f'; } /* '' */
+.icon-017-money-4:before { content: '\e810'; } /* '' */
+.icon-018-settings:before { content: '\e811'; } /* '' */
+.icon-019-banking-1:before { content: '\e812'; } /* '' */
+.icon-020-hourglass:before { content: '\e813'; } /* '' */
+.icon-021-eye:before { content: '\e814'; } /* '' */
+.icon-022-security-1:before { content: '\e815'; } /* '' */
+.icon-023-wallet:before { content: '\e816'; } /* '' */
+.icon-024-purse:before { content: '\e817'; } /* '' */
+.icon-025-economy:before { content: '\e818'; } /* '' */
+.icon-026-investment:before { content: '\e819'; } /* '' */
+.icon-027-laptop:before { content: '\e81a'; } /* '' */
+.icon-028-piggy-bank:before { content: '\e81b'; } /* '' */
+.icon-029-mortgage:before { content: '\e81c'; } /* '' */
+.icon-030-folder:before { content: '\e81d'; } /* '' */
+.icon-031-pie-chart:before { content: '\e81e'; } /* '' */
+.icon-032-auction:before { content: '\e81f'; } /* '' */
+.icon-033-bar-chart:before { content: '\e820'; } /* '' */
+.icon-034-loan:before { content: '\e821'; } /* '' */
+.icon-035-truck:before { content: '\e822'; } /* '' */
+.icon-036-security:before { content: '\e823'; } /* '' */
+.icon-037-safebox:before { content: '\e824'; } /* '' */
+.icon-038-money-3:before { content: '\e825'; } /* '' */
+.icon-039-gold:before { content: '\e826'; } /* '' */
+.icon-040-card:before { content: '\e827'; } /* '' */
+.icon-041-money-2:before { content: '\e828'; } /* '' */
+.icon-042-money-1:before { content: '\e829'; } /* '' */
+.icon-043-stamp:before { content: '\e82a'; } /* '' */
+.icon-044-bank:before { content: '\e82b'; } /* '' */
+.icon-045-money:before { content: '\e82c'; } /* '' */
+.icon-046-law:before { content: '\e82d'; } /* '' */
+.icon-047-atm:before { content: '\e82e'; } /* '' */
+.icon-048-banking:before { content: '\e82f'; } /* '' */
+.icon-049-cheque:before { content: '\e830'; } /* '' */
+.icon-050-currency:before { content: '\e831'; } /* '' */
